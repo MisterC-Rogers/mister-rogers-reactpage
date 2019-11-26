@@ -1,0 +1,10 @@
+.Skills {
+  &__logo {
+    margin: 0 12px;
+
+    img {
+      // Removes extra space under image
+      vertical-align: bottom;
+    }
+  }
+}
