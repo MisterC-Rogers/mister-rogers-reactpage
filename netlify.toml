@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/*"
+  to = "/projects"
+  status = 200
+ 
+ [[redirects]]
+  from = "/*"
+  to = "/about"
+  status = 200
+  
+[[redirects]]
+  from = "/*"
+  to = "/contact"
+  status = 200
