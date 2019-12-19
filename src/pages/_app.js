@@ -4,13 +4,12 @@ import IndexPage from "./index";
 import AboutPage from "./about";
 import ProjectsPage from "./projects";
 import ContactPage from "./contact";
-import { Switch, Route, Router } from "./../util/router.js";
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import Footer from "./../components/Footer";
-import { ProvideAuth } from "./../util/auth.js";
+
 
 function App(props) {
   return (
-    <ProvideAuth>
       <Router>
         <>
           <Navbar
@@ -56,7 +55,6 @@ function App(props) {
           />
         </>
       </Router>
-    </ProvideAuth>
   );
 }
 
